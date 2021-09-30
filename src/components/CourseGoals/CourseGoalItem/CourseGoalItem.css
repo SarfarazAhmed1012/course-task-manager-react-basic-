@@ -1,0 +1,30 @@
+.goal-item {
+  margin: 1rem 0;
+  background: #8b005d;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  color: white;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+.delete-button{
+  font: inherit;
+  padding: 0.2rem 1.5rem;
+  border: 1px solid #1d4c74;
+  color: white;
+  background: #4d428d;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+  float: right;
+  padding-bottom: 5px;
+}
+
+.delete-button:focus {
+  outline: none;
+}
+
+.delete-button:hover,
+.delete-button:active {
+  background: #67178b;
+  border-color: #133f81;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
+}
